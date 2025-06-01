@@ -4,3 +4,9 @@
 
 layout: home
 ---
+
+Welcome to the gallery of my games.
+
+Check out Crabity!: [Crabity]({{ site.url }}{% link games/crabity.md %})
+
+Check out Glass Rooms: [Glass Rooms]({{ site.url }}{% link games/glassrooms.md %})

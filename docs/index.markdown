@@ -5,10 +5,19 @@
 layout: home
 ---
 
-Welcome to the gallery of my games.
+Welcome to the gallery of my games. Click on their images for more info!
+
+## Graffiti Trials
+<a href="{{ site.url }}{% link games/graffiti-trials.md %}" class="image-hover">
+  <img src="/assets/img/graffiti-trials-icon.png" alt="Graffiti Trials">
+</a>
 
 ## Crabity
-[![Crabity](/assets/img/crabity.jpg)]({{ site.url }}{% link games/crabity.md %})
+<a href="{{ site.url }}{% link games/crabity.md %}" class="image-hover">
+  <img src="/assets/img/crabity.jpg" alt="Crabity">
+</a>
 
-## Glass Rooms
-[![Glass Rooms](/assets/img/glass-rooms.png)]({{ site.url }}{% link games/glassrooms.md %})
+## Glass Room
+<a href="{{ site.url }}{% link games/glassrooms.md %}" class="image-hover">
+  <img src="/assets/img/glass-rooms.png" alt="Glass Room">
+</a>

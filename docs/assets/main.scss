@@ -3,3 +3,30 @@
 ---
 
 @import "minima";
+
+.center {
+  text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.image-hover {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-hover img {
+  display: block;
+  transition: filter 0.3s ease;
+}
+
+.image-hover:hover img {
+  filter: grayscale(100%);
+}

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Glass Rooms
+title: Graffiti Trials
 categories: games
 ---
 

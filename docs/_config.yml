@@ -33,9 +33,14 @@ theme: minima
 plugins:
   - jekyll-feed
 
+include:
+  - _pages
+
 # Modify minima settings
 header_pages:
-    about.markdown
+  - _pages/devlogs.markdown
+  - _pages/about.markdown
+
 
 # Defaults property for images
 defaults:

@@ -37,3 +37,5 @@ I had a lot of fun developing this update and learning along the way.
 
 The time trial master is waiting for a worthy opponent. Go practice and beat 'em! You never know
 when more of them may appear...
+
+![Graffiti friends](/assets/img/graffiti-trials/graffiti-friends-2.png)

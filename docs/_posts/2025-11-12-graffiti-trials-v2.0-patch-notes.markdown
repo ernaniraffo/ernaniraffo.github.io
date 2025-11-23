@@ -1,37 +1,39 @@
 ---
 layout: post
 title:  "Graffiti Trials v2.0: Patch Notes"
-date:   2025-11-15 07:00:00 -0700
+date:   2025-11-22
 categories: graffiti-trials
 ---
 
-Graffiti Trials just got its biggest update yet, providing a more polished and fun playing experience.
+*Graffiti Trials* just got its biggest update yet, bringing a more polished and fun gameplay experience.
 
-The focus of this update was to add better interactions through sounds and animations, and to improve
-the user experience through user interface and in-game characters.
+This update focuses on improving interactions with new sounds and animations, and enhancing the 
+overall user experience through UI updates and character improvements.
 
 # Updates
 * Added sounds for several interactions
-* Added animations while interacting with non-playable characters
-* Added tutorial and guides via a new friend
-* Added a graffiti can icon displaying the amount of spray paint available to use
-* Added indicator that the time trial is complete
+* Added new animations for interacting with non-playable characters
+* Added a new tutorial and guides, delivered by a new in-game friend
+* Added a graffiti can icon that shows how much spray paint you have left
+* Added a completion indicator for time trials
 * Added a title screen to start the game with options to play, view stats, or change options
 * Added a pause menu
-* Enhanced controller support and input device switching
-* Modified Course 1's level design
-* Added trees by Course 1
 * Added cursor locking while playing and unlocking while interacting with UI
+* Added trees near Course 1
+* Modified Course 1's level design
 * Modified font style
+* Enhanced controller support and input device switching
+* Enhanced quality of shadows
 
 # Bug Fixes
-* Fixed an issue where jumping near the time trial master and immediately interacting with them
-crashed the game
-* Fixed higher jumps near non-playable characters
+* Fixed an issue where jumping near the time trial master and interacting with them immediately 
+could crash the game
+* Fixed unintended higher jumps near non-playable characters
 * Fixed a typo in the time trial master dialogue
 
-Thank you to everyone who playtested the game and provided quality feedback. Everyone had great and
-interesting ideas for the future of *Graffiti Trials*. If you have any more, message me!
+Thank you to everyone who playtested the game and shared feedback. Everyone had great and
+inspiring ideas for the future of *Graffiti Trials*. If you have any more, feel free to message me! 
+I had a lot of fun developing this update and learning along the way.
 
 The time trial master is waiting for a worthy opponent. Go practice and beat 'em! You never know
-when more of them may appear.
+when more of them may appear...

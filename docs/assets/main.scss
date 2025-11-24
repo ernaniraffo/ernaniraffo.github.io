@@ -4,6 +4,10 @@
 
 @import "minima";
 
+$game-img-width: 600px;
+$game-img-height: 338px;
+
+/* Center and alignment classes */
 .center {
   text-align: center;
 }
@@ -16,17 +20,47 @@
     text-align: left;
 }
 
-.image-hover {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
+/* Game entry styling */
+.game-entry {
+  text-align: center;       /* center all content inside the entry */
+  margin: 30px 0;           /* vertical spacing between entries */
 }
 
-.image-hover img {
+/* Game title above the image */
+.game-entry .game-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;      /* spacing between title and image */
+  color: $text-color;       /* optional, adjust to your page theme */
+}
+
+/* Framed image */
+.game-entry .framed-img {
+  width: $game-img-width;
+  height: $game-img-height;
+  object-fit: fill;
+  border: 3px solid #e7e7e7;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
   display: block;
-  transition: filter 0.3s ease;
+  margin: 0 auto;           /* centers the image */
 }
 
-.image-hover:hover img {
-  filter: grayscale(100%);
+/* Slideshow styling */
+.slideshow-container {
+  position: relative;
+  display: inline-block;
+  width: $game-img-width;
+  height: $game-img-height;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }

@@ -11,36 +11,50 @@ Welcome to the gallery of my games. Click on their images for more info!
 
 <div class="game-entry">
   <div class="game-title">Graffiti Trials</div>
-  <a href="{{ site.url }}{% link games/graffiti-trials.md %}">
-    <div class="slideshow-container">
+  <div class="slideshow-container">
+    <a href="{{ site.url }}{% link games/graffiti-trials.md %}">
       <img class="framed-img slide" src="/assets/img/graffiti-trials/time-trial.png" alt="Time Trial">
+    </a>
+    <a href="{{ site.url }}{% link games/graffiti-trials.md %}">
       <img class="framed-img slide" src="/assets/img/graffiti-trials/parkour.png" alt="Parkour">
+    </a>
+    <a href="{{ site.url }}{% link games/graffiti-trials.md %}">
       <img class="framed-img slide" src="/assets/img/graffiti-trials/friend.png" alt="Friend">
-    </div>
-  </a>
+    </a>
+  </div>
 </div>
 
 <div class="game-entry">
   <div class="game-title">Crabity</div>
-  <a href="{{ site.url }}{% link games/crabity.md %}">
-    <div class="slideshow-container">
+  <div class="slideshow-container">
+    <a href="{{ site.url }}{% link games/crabity.md %}">
       <img class="framed-img slide" src="/assets/img/crabity/co-op.jpg" alt="Co-op">
+    </a>
+    <a href="{{ site.url }}{% link games/crabity.md %}">
       <img class="framed-img slide" src="/assets/img/crabity/level-map.jpg" alt="Level Map">
+    </a>
+    <a href="{{ site.url }}{% link games/crabity.md %}">
       <img class="framed-img slide" src="/assets/img/crabity/time-trial.jpg" alt="Time Trial">
-    </div>
-  </a>
+    </a>
+  </div>
 </div>
 
 <div class="game-entry">
   <div class="game-title">Glass Room</div>
-  <a href="{{ site.url }}{% link games/glassrooms.md %}">
-    <div class="slideshow-container">
+  <div class="slideshow-container">
+    <a href="{{ site.url }}{% link games/glassrooms.md %}">
       <img class="framed-img slide" src="/assets/img/glass-rooms/peaceful.png" alt="Peaceful">
+    </a>
+    <a href="{{ site.url }}{% link games/glassrooms.md %}">
       <img class="framed-img slide" src="/assets/img/glass-rooms/insane.png" alt="Insane">
+    </a>
+    <a href="{{ site.url }}{% link games/glassrooms.md %}">
       <img class="framed-img slide" src="/assets/img/glass-rooms/loading-underworld.png" alt="Loading Underworld">
+    </a>
+    <a href="{{ site.url }}{% link games/glassrooms.md %}">
       <img class="framed-img slide" src="/assets/img/glass-rooms/chaos.png" alt="Chaos">
-    </div>
-  </a>
+    </a>
+  </div>
 </div>
 
 <script>

@@ -52,8 +52,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let index = 0;
 
     function showSlide() {
+      slides.forEach(s => { s.style.position = "absolute"; });
       slides.forEach((slide, i) => {
-        slide.style.display = (i === index) ? "block" : "none";
+        slide.style.opacity = (i === index) ? "1" : "0";
       });
       index = (index + 1) % slides.length;
     }

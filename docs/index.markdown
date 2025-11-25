@@ -10,10 +10,10 @@ Welcome to the gallery of my games. Click on their images for more info!
 </p>
 
 <p class="center"><b>Graffiti Trials</b></p>
-<img class="imgEntry" src="/assets/img/graffiti-trials/time-trial.png">
+<img class="img-entry" src="/assets/img/graffiti-trials/time-trial.png">
 
 <p class="center"><b>Crabity</b></p>
-<img class="imgEntry" src="/assets/img/crabity/co-op.jpg">
+<img class="img-entry" src="/assets/img/crabity/co-op.jpg">
 
 <p class="center"><b>Glass Room</b></p>
-<img class="imgEntry" src="/assets/img/glass-rooms/chaos.png">
+<img class="img-entry" src="/assets/img/glass-rooms/chaos.png">

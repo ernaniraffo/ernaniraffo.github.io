@@ -9,11 +9,17 @@ layout: home
 Welcome to the gallery of my games. Click on their images for more info!
 </p>
 
-<p class="center"><b>Graffiti Trials</b></p>
-<img class="img-entry" src="/assets/img/graffiti-trials/time-trial.png">
+<div class="game-entry">
+  <h2><b>Graffiti Trials</b></h2>
+  <img class="bordered" src="/assets/img/graffiti-trials/time-trial.png">
+</div>
 
-<p class="center"><b>Crabity</b></p>
-<img class="img-entry" src="/assets/img/crabity/co-op.jpg">
+<div class="game-entry">
+  <h2><b>Crabity</b></h2>
+  <img class="bordered" src="/assets/img/crabity/co-op.jpg">
+</div>
 
-<p class="center"><b>Glass Room</b></p>
-<img class="img-entry" src="/assets/img/glass-rooms/chaos.png">
+<div class="game-entry">
+  <h2><b>Glass Room</b></h2>
+  <img class="bordered" src="/assets/img/glass-rooms/chaos.png">
+</div>

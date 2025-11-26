@@ -11,23 +11,41 @@ Welcome to the gallery of my games. Click on their images for more info!
 
 <div class="game-entry">
   <h2><b>Graffiti Trials</b></h2>
-  <img class="bordered" src="/assets/img/graffiti-trials/time-trial.png">
-  <img class="bordered" src="/assets/img/graffiti-trials/friend.png">
-  <img class="bordered" src="/assets/img/graffiti-trials/parkour.png">
+  <a href="{{ site.url }}{% link games/graffiti-trials.md %}">
+    <img class="bordered" src="/assets/img/graffiti-trials/time-trial.png">
+  </a>
+  <a href="{{ site.url }}{% link games/graffiti-trials.md %}">
+    <img class="bordered" src="/assets/img/graffiti-trials/friend.png">
+  </a>
+  <a href="{{ site.url }}{% link games/graffiti-trials.md %}">
+    <img class="bordered" src="/assets/img/graffiti-trials/parkour.png">
+  </a>
 </div>
 
 <div class="game-entry">
   <h2><b>Crabity</b></h2>
-  <img class="bordered" src="/assets/img/crabity/co-op.jpg">
-  <img class="bordered" src="/assets/img/crabity/level-map.jpg"> 
-  <img class="bordered" src="/assets/img/crabity/time-trial.jpg"> 
+  <a href="{{ site.url }}{% link games/crabity.md %}">
+    <img class="bordered" src="/assets/img/crabity/co-op.jpg">
+  </a>
+  <a href="{{ site.url }}{% link games/crabity.md %}">
+    <img class="bordered" src="/assets/img/crabity/level-map.jpg">
+  </a>
+  <a href="{{ site.url }}{% link games/crabity.md %}">
+    <img class="bordered" src="/assets/img/crabity/time-trial.jpg">
+  </a>
 </div>
 
 <div class="game-entry">
   <h2><b>Glass Room</b></h2>
-  <img class="bordered" src="/assets/img/glass-rooms/chaos.png">
-  <img class="bordered" src="/assets/img/glass-rooms/insane.png">
-  <img class="bordered" src="/assets/img/glass-rooms/loading-underworld.png">
+  <a href="{{ site.url }}{% link games/glassrooms.md %}">
+    <img class="bordered" src="/assets/img/glass-rooms/chaos.png">
+  </a>
+  <a href="{{ site.url }}{% link games/glassrooms.md %}">
+    <img class="bordered" src="/assets/img/glass-rooms/insane.png">
+  </a>
+  <a href="{{ site.url }}{% link games/glassrooms.md %}">
+    <img class="bordered" src="/assets/img/glass-rooms/loading-underworld.png">
+  </a>
 </div>
 
 <script>

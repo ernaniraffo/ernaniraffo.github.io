@@ -21,7 +21,6 @@
 title: Ernani Raffo
 email: ernaniraffo@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Ernani's game projects gallery.
 domain: ernaniraffo.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://ernaniraffo.github.io # the base hostname & protocol for your site, e.g. http://example.com

@@ -34,3 +34,7 @@ $game-img-height: 338px;
   display: none;
   pointer-events: fill;
 }
+
+img.bordered:hover {
+  filter: grayscale(100%)
+}

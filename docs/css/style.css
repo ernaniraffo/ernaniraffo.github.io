@@ -1,0 +1,17 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  color: lawngreen;
+}
+
+body {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border: 3px solid lawngreen;
+  border-radius: 12px;
+}

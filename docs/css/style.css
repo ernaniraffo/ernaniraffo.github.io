@@ -6,12 +6,20 @@
 
 body {
   text-align: center;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-img {
+.bordered-img {
   width: 100%;
-  max-width: 600px;
-  height: auto;
+  aspect-ratio: 16 / 9;
   border: 3px solid lawngreen;
-  border-radius: 12px;
+}
+
+.container {
+  display: grid;
+  gap: 16px;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }

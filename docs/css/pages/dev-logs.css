@@ -1,0 +1,25 @@
+.dev-logs {
+  text-align: left;
+}
+ 
+.log-entry {
+  margin-bottom: 4rem;
+}
+
+.log-entry header {
+  margin-bottom: 2rem;
+}
+
+.log-entry header h2 {
+  margin-bottom: 0.5rem;
+}
+
+.log-entry img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  aspect-ratio: 16 / 9;
+  border: 2px solid lawngreen;
+  margin-top: 1rem;
+  image-rendering: pixelated;
+}

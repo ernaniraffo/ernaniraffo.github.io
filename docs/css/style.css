@@ -59,3 +59,11 @@ body {
   place-items: center;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+
+
+.shell {
+  margin-top: 1em;
+  border: 3px solid lawngreen;
+  text-align: left;
+  padding: 0.5em;
+}

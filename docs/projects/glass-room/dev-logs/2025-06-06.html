@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Glass Room: Dev Log, June 6, 2025</title>
+    <link rel="stylesheet"
+      href="../../../css/style.css">
+    <link rel="stylesheet"
+      href="../../../css/pages/dev-logs.css">
+  </head>
+
+  <body>
+    <article class="log-entry">
+      <header>
+        <h1>Glass Room: Fix for player phasing through glass cubes</h1>
+        <time datetime="2025-06-06">June 6, 2025</time>
+      </header>
+      <p>
+        Bug fix for Glass Room!
+      </p>
+      <p>
+        Bug: When loading into the glass rooms, the player model phases
+        through the moving cubes,
+        causing the player to lose immediately.
+      </p>
+      <p>
+        Root cause: The glass cubes' positions were being directly manipulated
+        in the default
+        update loop, instead of the fixed update loop used by the physics
+        engine. Performing
+        physics-like movement calculations in the default update loop can
+        cause all kinds
+        of undefined behavior, such as objects not detecting each other
+        colliding!
+      </p>
+      <p>
+        Fix: The calculations for the glass cubes' next position is now done
+        in the fixed update
+        loop! Load the game again and you will no longer fall through! At
+        least not until the glass
+        breaks...
+      </p>
+    </article>
+  </body>

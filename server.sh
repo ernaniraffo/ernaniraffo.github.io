@@ -1,4 +1,4 @@
 #!/bin/bash
 
-pkill -f "http.server"
+pkill -f "server.py"
 python3 server.py -d docs 

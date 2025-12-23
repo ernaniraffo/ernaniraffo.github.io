@@ -67,3 +67,19 @@ body {
   text-align: left;
   padding: 0.5em;
 }
+
+.icon-link {
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.icon-link img {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+footer {
+  margin-top: 4rem;
+  padding: 2rem;
+}

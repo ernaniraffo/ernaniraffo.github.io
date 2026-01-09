@@ -25,7 +25,15 @@
   image-rendering: pixelated;
 }
 
+.log-list {
+  text-align: center;
+}
+
 .log-list h3 {
   margin-bottom: 2rem;
   margin-top: 0.5rem;
+}
+
+iframe {
+  margin: 0 auto;
 }

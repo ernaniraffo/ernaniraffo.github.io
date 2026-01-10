@@ -24,6 +24,11 @@ def run():
         default=8000,
         help="Port to run the server on"
     )
+    parser.add_argument(
+        "--bind",
+        default="localhost",
+        help="Address to bind the server to (default: localhost)"
+    )
 
     args = parser.parse_args()
 
@@ -35,8 +40,8 @@ def run():
         )
     )
 
-    server = HTTPServer(("", args.port), handler)
-    print(f"Serving '{args.directory}' at http://localhost:{args.port}")
+    server = HTTPServer((args.bind, args.port), handler)
+    print(f"Serving '{args.directory}' at http://{args.bind}:{args.port}")
     try:
         server.serve_forever()
     except KeyboardInterrupt:

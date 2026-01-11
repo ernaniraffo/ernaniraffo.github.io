@@ -1,0 +1,152 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  color: lawngreen;
+}
+
+body {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid lawngreen;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h1 a {
+  text-decoration: none;
+}
+
+header nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: grid;
+}
+
+.container .game {
+  position: relative;
+  transition: transform 0.3s ease ;
+}
+
+.container .game:hover {
+  transform: translateY(-5px);
+}
+
+.container .game img {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 3px solid lawngreen;
+  transition: transform 0.3s ease;
+}
+
+.container .game:hover img {
+  box-shadow: 0px 25px 0 -1em rgba(126, 252, 0, 0.30);
+}
+
+.container .game .name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 8px 12px;
+  border: 2px solid lawngreen;
+}
+
+.container .game:hover .name {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.container {
+  display: grid;
+  gap: 16px;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 1rem;
+}
+
+.shell {
+  margin-top: 1em;
+  border: 3px solid lawngreen;
+  text-align: left;
+  padding: 0.5em;
+}
+
+.icon-link {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.icon-link img {
+  max-width: 30px;
+  max-height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  filter: drop-shadow(0 0 6px lawngreen);
+  background-color: transparent;
+}
+
+.icon-link a {
+  text-decoration: none; /* remove default underline */
+}
+
+.icon-link a:hover {
+  text-decoration: underline;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  border-top: 1px solid lawngreen;
+  padding-top: 0.5rem;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

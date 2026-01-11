@@ -40,10 +40,6 @@ header nav a:hover {
   text-decoration: underline;
 }
 
-.container {
-  display: grid;
-}
-
 .container .game {
   position: relative;
   transition: transform 0.3s ease ;
@@ -86,7 +82,7 @@ header nav a:hover {
   display: grid;
   gap: 16px;
   place-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   margin: 1rem;
 }
 

@@ -15,6 +15,11 @@
   margin-bottom: 0.5rem;
 }
 
+.log-entry time {
+  display: block;
+  margin-bottom: 2rem;
+}
+
 .log-entry img {
   width: 100%;
   height: auto;

@@ -4,7 +4,7 @@ const headerHTML = `
     <a href="/index.html">Ernani Raffo</a>
   </h1>
   <nav>
-    <a href="/dev-log.html">Dev Logs</a>
+    <a href="/dev-logs.html">Dev Logs</a>
     <a href="/about.html">About</a>
   </nav>
 </header>

@@ -9,6 +9,18 @@
       href="../../css/style.css">
     <link rel="stylesheet"
       href="../../css/pages/dev-logs.css">
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="../../sss.min.js"></script>
+    <link rel="stylesheet"
+      href="../../css/sss.css"
+      type="text/css"
+      media="all">
+    <script>
+      jQuery(function ($) {
+        $('.slider').sss();
+      });
+    </script>
   </head>
 
   <body>
@@ -16,8 +28,21 @@
 
     <h1>Graffiti Trials</h1>
 
-    <p class="center">Check out <a href="https://ernaniraffo.itch.io/graffiti-trials">Graffiti
+    <p class="center">Check out <a
+        href="https://ernaniraffo.itch.io/graffiti-trials">Graffiti
         Trials</a>! This game was created for the Urban Game Jam #1.</p>
+
+    <div class="slider">
+      <img src="../../assets/img/graffiti-trials/time-trial.png"
+        class="ssslide"
+        alt="Time Trial">
+      <img src="../../assets/img/graffiti-trials/friend.png"
+        class="ssslide"
+        alt="Friends">
+      <img src="../../assets/img/graffiti-trials/parkour.png"
+        class="ssslide"
+        alt="Parkour">
+    </div>
 
     <iframe frameborder="0"
       src="https://itch.io/embed/3683437?linkback=true&amp;dark=true"

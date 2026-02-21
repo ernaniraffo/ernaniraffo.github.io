@@ -9,18 +9,6 @@
       href="../../css/style.css">
     <link rel="stylesheet"
       href="../../css/pages/dev-logs.css">
-    <script
-      src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="../../sss.min.js"></script>
-    <link rel="stylesheet"
-      href="../../css/sss.css"
-      type="text/css"
-      media="all">
-    <script>
-      jQuery(function ($) {
-        $('.slider').sss();
-      });
-    </script>
   </head>
 
   <body>
@@ -32,15 +20,17 @@
         href="https://ernaniraffo.itch.io/graffiti-trials">Graffiti
         Trials</a> on itch.io! This game was created for the Urban Game Jam #1.</p>
 
-    <div class="slider">
+    <div class="image-slider"
+      style="--slider-step: 3s; --slider-duration: 9s;"
+      aria-label="Graffiti Trials screenshots">
       <img src="../../assets/img/graffiti-trials/time-trial.png"
-        class="ssslide"
+        style="--slide-index: 0;"
         alt="Time Trial">
       <img src="../../assets/img/graffiti-trials/friend.png"
-        class="ssslide"
+        style="--slide-index: 1;"
         alt="Friends">
       <img src="../../assets/img/graffiti-trials/parkour.png"
-        class="ssslide"
+        style="--slide-index: 2;"
         alt="Parkour">
     </div>
 
@@ -50,7 +40,13 @@
       data-project-name="Graffiti Trials"></div>
 
     <div class="spacer"></div>
-    <script src="/footer.js"></script>
+    <footer class="footer">
+      <div class="social-links">
+        <a href="mailto:ernaniraffo@gmail.com">ernaniraffo@gmail.com</a>
+        <a href="https://github.com/ernaniraffo">GitHub</a>
+        <a href="https://www.x.com/ernaniraffo/">X</a>
+      </div>
+    </footer>
     <script src="/dev-log-renderer.js"></script>
   </body>
 

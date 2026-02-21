@@ -8,18 +8,6 @@
       href="../../css/style.css">
     <link rel="stylesheet"
       href="../../css/pages/dev-logs.css">
-    <script
-      src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="../../sss.min.js"></script>
-    <link rel="stylesheet"
-      href="../../css/sss.css"
-      type="text/css"
-      media="all">
-    <script>
-      jQuery(function ($) {
-        $('.slider').sss();
-      });
-    </script>
   </head>
 
   <body>
@@ -30,10 +18,12 @@
       This game was created for the Brackeys Game Jam 2025 #1.
     </p>
     
-    <div class="slider">
-      <img src="../../assets/img/glass-rooms/chaos.png" class="ssslide" alt="Chaos">
-      <img src="../../assets/img/glass-rooms/loading-underworld.png" class="ssslide" alt="Underworld">
-      <img src="../../assets/img/glass-rooms/insane.png" class="ssslide" alt="Insane">
+    <div class="image-slider"
+      style="--slider-step: 3s; --slider-duration: 9s;"
+      aria-label="Glass Room screenshots">
+      <img src="../../assets/img/glass-rooms/chaos.png" style="--slide-index: 0;" alt="Chaos">
+      <img src="../../assets/img/glass-rooms/loading-underworld.png" style="--slide-index: 1;" alt="Underworld">
+      <img src="../../assets/img/glass-rooms/insane.png" style="--slide-index: 2;" alt="Insane">
     </div>
 
     <h2>Glass Room Dev Logs</h2>
@@ -41,7 +31,13 @@
     <div id="dev-log-list-container" data-project-name="Glass Room"></div>
 
     <div class="spacer"></div>
-    <script src="/footer.js"></script>
+    <footer class="footer">
+      <div class="social-links">
+        <a href="mailto:ernaniraffo@gmail.com">ernaniraffo@gmail.com</a>
+        <a href="https://github.com/ernaniraffo">GitHub</a>
+        <a href="https://www.x.com/ernaniraffo/">X</a>
+      </div>
+    </footer>
     <script src="/dev-log-renderer.js"></script>
   </body>
 

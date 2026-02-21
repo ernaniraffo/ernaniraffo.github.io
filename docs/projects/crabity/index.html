@@ -7,18 +7,6 @@
     <title>Crabity</title>
     <link rel="stylesheet"
       href="../../css/style.css">
-    <script
-      src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="../../sss.min.js"></script>
-    <link rel="stylesheet"
-      href="../../css/sss.css"
-      type="text/css"
-      media="all">
-    <script>
-      jQuery(function ($) {
-        $('.slider').sss();
-      });
-    </script>
   </head>
 
   <body>
@@ -29,15 +17,17 @@
         href="https://store.steampowered.com/app/2988850/Crabity/">Crabity</a>
       on Steam!</p>
 
-    <div class="slider">
+    <div class="image-slider"
+      style="--slider-step: 3s; --slider-duration: 9s;"
+      aria-label="Crabity screenshots">
       <img src="../../assets/img/crabity/time-trial.jpg"
-        class="ssslide"
+        style="--slide-index: 0;"
         alt="Crabity Screenshot 1">
       <img src="../../assets/img/crabity/level-map.jpg"
-        class="ssslide"
+        style="--slide-index: 1;"
         alt="Crabity Screenshot 2">
       <img src="../../assets/img/crabity/co-op.jpg"
-        class="ssslide"
+        style="--slide-index: 2;"
         alt="Crabity Screenshot 3">
     </div>
 
@@ -45,7 +35,13 @@
       Science: Computer Game Design alongside many talented developers.</p>
 
     <div class="spacer"></div>
-    <script src="/footer.js"></script>
+    <footer class="footer">
+      <div class="social-links">
+        <a href="mailto:ernaniraffo@gmail.com">ernaniraffo@gmail.com</a>
+        <a href="https://github.com/ernaniraffo">GitHub</a>
+        <a href="https://www.x.com/ernaniraffo/">X</a>
+      </div>
+    </footer>
   </body>
 
 </html>

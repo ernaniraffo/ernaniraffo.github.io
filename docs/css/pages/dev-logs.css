@@ -26,13 +26,11 @@
   height: auto;
   max-width: 500px;
   aspect-ratio: 16 / 9;
-  border: 2px solid lawngreen;
+  border: 2px solid rgba(125, 219, 77, 0.24);
+  border-radius: 8px;
+  background: rgba(87, 185, 50, 0.08);
   margin-top: 1rem;
   image-rendering: pixelated;
-}
-
-.log-list {
-  text-align: center;
 }
 
 .log-list h3 {

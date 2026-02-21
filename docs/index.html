@@ -1,60 +1,52 @@
 <!DOCTYPE html>
-<html>
-
-  <!--Meta information for HTML page-->
-
+<html lang="en">
   <head>
-    <meta name="viewport"
-      content="width=device-width, initial-scale=1.0">
-    <title>Ernani's website</title>
-    <link rel="stylesheet"
-      href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ernani Raffo</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
-
-  <!--The document's body-->
-
   <body>
-    <script src="/header.js"></script>
-    <p class="center">A collection of my projects.</p>
+    <header>
+      <h1><a href="/index.html">Ernani Raffo</a></h1>
+      <nav>
+        <a href="/dev-logs.html">Dev Logs</a>
+        <a href="/about.html">About</a>
+      </nav>
+    </header>
 
-    <div class="container">
-      <div class="game">
-        <a href="projects/slick-speed/">
-          <img src="assets/img/slick-speed/cover.png"
-            ,
-            alt="Slick Speed Screenshot">
+    <main>
+      <p class="center">A collection of my game projects.</p>
+
+      <section class="container" aria-label="Projects">
+        <a class="game" href="projects/slick-speed/">
+          <img src="assets/img/slick-speed/cover.png" alt="Slick Speed screenshot">
           <div class="name">Slick Speed</div>
         </a>
-      </div>
-      <div class="game">
-        <a href="projects/graffiti-trials/">
-          <img src="assets/img/graffiti-trials/time-trial.png"
-            ,
-            alt="Graffiti Trials Screenshot">
+
+        <a class="game" href="projects/graffiti-trials/">
+          <img src="assets/img/graffiti-trials/time-trial.png" alt="Graffiti Trials screenshot">
           <div class="name">Graffiti Trials</div>
         </a>
-      </div>
-      <a href="projects/crabity/">
-        <div class="game">
-          <img src="assets/img/crabity/co-op.jpg"
-            ,
-            alt="Crabity Screenshot">
+
+        <a class="game" href="projects/crabity/">
+          <img src="assets/img/crabity/co-op.jpg" alt="Crabity screenshot">
           <div class="name">Crabity</div>
-        </div>
-      </a>
-      <div class="game">
-        <a href="projects/glass-room/">
-          <img src="assets/img/glass-rooms/chaos.png"
-            ,
-            alt="Glass Room Screenshot">
+        </a>
+
+        <a class="game" href="projects/glass-room/">
+          <img src="assets/img/glass-rooms/chaos.png" alt="Glass Room screenshot">
           <div class="name">Glass Room</div>
         </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="social-links">
+        <a href="mailto:ernaniraffo@gmail.com">ernaniraffo@gmail.com</a>
+        <a href="https://github.com/ernaniraffo">GitHub</a>
+        <a href="https://www.x.com/ernaniraffo/">X</a>
       </div>
-    </div>
-
-    <div class="spacer"></div>
-
-    <script src="/footer.js"></script>
+    </footer>
   </body>
-
 </html>

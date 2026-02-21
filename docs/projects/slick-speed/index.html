@@ -9,18 +9,6 @@
       href="../../css/style.css">
     <link rel="stylesheet"
       href="../../css/pages/dev-logs.css">
-    <script
-      src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="../../sss.min.js"></script>
-    <link rel="stylesheet"
-      href="../../css/sss.css"
-      type="text/css"
-      media="all">
-    <script>
-      jQuery(function ($) {
-        $('.slider').sss();
-      });
-    </script>
   </head>
 
   <body>
@@ -32,18 +20,20 @@
         href="https://ernaniraffo.itch.io/slick-speed">Slick Speed</a>
       on itch.io! This game was created for the Big Mode Game Jam 2026.</p>
 
-    <div class="slider">
+    <div class="image-slider"
+      style="--slider-step: 3s; --slider-duration: 12s;"
+      aria-label="Slick Speed screenshots">
       <img src="../../assets/img/slick-speed/objects-colliding.png"
-        class="ssslide"
+        style="--slide-index: 0;"
         alt="Slick Speed Screenshot 1">
       <img src="../../assets/img/slick-speed/score-43.png"
-        class="ssslide"
+        style="--slide-index: 1;"
         alt="Slick Speed Screenshot 2">
       <img src="../../assets/img/slick-speed/slickness.png"
-        class="ssslide"
+        style="--slide-index: 2;"
         alt="Slick Speed Screenshot 3">
       <img src="../../assets/img/slick-speed/game-over.png"
-        class="ssslide"
+        style="--slide-index: 3;"
         alt="Slick Speed Screenshot 4">
     </div>
 
@@ -53,7 +43,13 @@
       data-project-name="Slick Speed"></div>
 
     <div class="spacer"></div>
-    <script src="/footer.js"></script>
+    <footer class="footer">
+      <div class="social-links">
+        <a href="mailto:ernaniraffo@gmail.com">ernaniraffo@gmail.com</a>
+        <a href="https://github.com/ernaniraffo">GitHub</a>
+        <a href="https://www.x.com/ernaniraffo/">X</a>
+      </div>
+    </footer>
     <script src="/dev-log-renderer.js"></script>
   </body>
 

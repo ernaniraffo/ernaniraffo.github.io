@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        <title>Slick Speed: Post Mortem</title>
+        <link rel="stylesheet"
+            href="../../../css/style.css">
+        <link rel="stylesheet"
+            href="../../../css/pages/dev-logs.css">
+    </head>
+
+    <body>
+        <script src="/header.js"></script>
+
+        <article class="log-entry">
+            <h2>Slick Speed: Post Mortem</h2>
+            <time datetime="2026-03-01">March 1, 2026</time>
+
+            <p>
+                I had 10 days to make a game for the <a
+                    href="https://itch.io/jam/bigmode-game-jam-2026">Bigmode
+                    Game Jam 2026</a> with
+                the theme "Slick", a word used by <a
+                    href="https://www.youtube.com/user/videogamedunkey">Videogamedunkey</a>
+                while giving
+                praise to great mechanics or moments in video games. The result
+                is now <a
+                    href="https://ernaniraffo.itch.io/slick-speed"><em>Slick
+                        Speed</em></a>, a retro styled arcade game with
+                mechanics
+                that
+                reward you for having quick and slick last-second reflexes.
+            </p>
+
+            <img src="/assets/img/slick-speed/slick-speed-teaser.gif"
+                alt="Slick Speed teaser">
+
+            <p>
+                This post was made to highlight important moments during the
+                development process with a post-jam point of view. Enjoy!
+            </p>
+
+            <h3>Making a 2D game</h3>
+
+            <p>
+                For this game jam, I wanted to try something different than my
+                other projects. I've always created games in Unity 3D and
+                although I love creating mechanics in 3D space, I wanted to
+                experiment making pixel art and developing gameplay in a 2D
+                space with a fixed camera. Textures definitely do not need to
+                have a pixelated look for 2D games but after playing <em>Animal
+                    Well</em>
+                last summer I was inspired to make a game using pixel art.
+            </p>
+
+            <p>
+                Game jams are always a great place to learn new things, and
+                thankfully using Unity's 2D engine went pretty smoothly. I
+                definitely had some trouble at first to make sure the rendering
+                settings were set properly for the pixel art that I made, but
+                once I figured that out, it was easy to know the scale of my
+                game objects. I picked 64 as the pixel per unit base, so a
+                height of 64 pixels for a given asset meant a height of 1 unit
+                in the engine and same for the width.
+            </p>
+
+            <p>
+                I made the pixel art and animations for <em>Slick Speed</em>
+                with
+                <a href="https://www.aseprite.org">Asesprite</a>. This was the
+                first time I used this tool and learning
+                the shortcuts was really fun as that sped up the iterating
+                process for the assets I wanted to include in the game. Drawing
+                concept art on a piece of paper and bringing them to life in a
+                game is one of the most satisfying things for me in game
+                development.
+            </p>
+
+            <img src="/assets/img/slick-speed/aseprite.gif"
+                alt="Asesprite gif">
+
+            <h3>Planning</h3>
+            <p>
+                The planning that went into <em>Slick Speed</em> was much better
+                for this
+                game jam compared to my previous game jam game: <em>Graffiti
+                    Trials</em>.
+                The biggest mistake with <em>Graffiti Trials</em> during the jam
+                was that
+                I did not put sound or much UI in the game itself on release
+                because my scope was too big for a 7 day jam where I worked my
+                day job during the week. With the Bigmode Game Jam starting on a
+                Thursday and lasting 10 days, I took Thursday and Friday to
+                brainstorm, design, and plan what would eventually become Slick
+                Speed on Saturday.
+            </p>
+            <p>
+                My biggest goal for this jam was to make a game, even if very
+                simple, that looked, felt, and sounded good. Here was my plan to
+                achieve that:
+            <ul>
+                <li>Thursday/Friday: Brainstorm, design, plan</li>
+                <li>Saturday: Prototype mechanics</li>
+                <li>Sunday: Finalize mechanics</li>
+                <li>Monday-Wednesday: Polish and balance gameplay loop, bug
+                    fixes, playtests</li>
+                <li>Thursday-Friday: Sound/UI, polish</li>
+                <li>Saturday: Final polish and submit game</li>
+            </ul>
+            </p>
+            <p>
+                The plan from Thursday to Wednesday went exactly as I had
+                planned. However, some of the bug fixes and playtesting did also
+                move from Wednesday to Thursday, delaying the sound and
+                user-interface elements to be done mostly Friday and Saturday.
+                This time around, I made sure to include days just for sound,
+                user-interface, and extra polishing as lessons learned from
+                <em>Graffiti Trials</em>.
+            </p>
+
+            <h3>Feedback</h3>
+
+            <p>
+                The feedback for the game once the voting period started blew my
+                expectations. <em>Slick Speed</em> had a very simple way of
+                interacting
+                with the player character. To move, you just press the
+                arrow keys or the traditional W, A, S, or D keys. Players have
+                commented that they were surprised at the overall gameplay with
+                minimal controls and the game's final concept. You can find the
+                rating and feedback
+                for <em>Slick Speed</em> <a
+                    href="https://itch.io/jam/bigmode-game-jam-2026/rate/4262968">here</a>.
+            </p>
+
+            <p>
+                My goal for <em>Slick Speed</em>, especially because of the 10
+                day
+                constraint, was to create a game that required just one hand to
+                play and only the movement keys I talked about earlier. This
+                created for other gameplay interactions within the game such as
+                the obstacles hitting each other and deviating from their
+                original paths. This interaction between obstacles was
+                interesting to make, but I did not expect it to be one of
+                everyone's favorite moments and, honestly, that was just a product
+                of me messing around with velocity in the collision code. I'm
+                truly grateful to receive so many positive comments on <em>Slick
+                    Speed</em>.
+            </p>
+
+            <img src="/assets/img/slick-speed/obstacle-interactions.gif"
+                alt="Obstacle interactions">
+
+            <h3>Cut Content</h3>
+
+            <p>
+                Due to the nature of game jams, a lot of content that was
+                originally planned did not make it into the game. For <em>Slick
+                    Speed</em>, there were many planned features that I really
+                wanted to
+                include.
+            </p>
+
+            <p>
+                One of the planned features was a power-up that appeared on the
+                screen at some point which players could use to slow down time,
+                trace a path within the allowed movement locations and, once the
+                path was confirmed, took the player from the original point of
+                the power up to the path's end point, splitting any obstacles
+                along the path. This was actually the first mechanic that
+                inspired the game and the grid-like movement.
+            </p>
+
+            <p>
+                Another feature was using the slick points gained to shop for
+                different skins in a store. I wanted to design different assets
+                for the player character that included different colors and
+                accessories. The shop would have served to reward the player for
+                being slick while playing and to add more variety in the game.
+            </p>
+
+            <p>
+                There were also different obstacles which I designed for
+                different
+                levels! Sadly, they only made it on the composition book and not
+                the game. The sketch below shows how I wanted the obstacles to
+                change forms in each phase, with the last phase (phase 4)
+                transforming the obstacle to a sentient enemy that was a bit
+                wider and harder to dodge.
+            </p>
+
+            <img src="/assets/img/slick-speed/concept-art.jpg"
+                alt="Obstacle concept art">
+
+            <h3>What's next?</h3>
+
+            <p>
+                My goal for <em>Slick Speed</em> now is to include the mechanics
+                and
+                content that had to be cut due to the time constraint. As I
+                develop and add this content, I will think of a short story,
+                boss fights, and fresh new areas for players to explore.
+            </p>
+
+            <p>
+                It was an honor to participate in the Bigmode Game Jam and I
+                loved playing some of the games submitted. I'll be posting
+                updates on <a href="https://x.com/ernaniraffo">X</a> as I
+                develop, follow me there to stay tuned! See
+                ya.
+            </p>
+
+        </article>
+
+        <div class="spacer">
+            <footer class="footer">
+                <div class="social-links">
+                    <a
+                        href="mailto:ernaniraffo@gmail.com">ernaniraffo@gmail.com</a>
+                    <a href="https://github.com/ernaniraffo">GitHub</a>
+                    <a href="https://www.x.com/ernaniraffo/">X</a>
+                </div>
+            </footer>
+        </div>
+    </body>
+
+</html>
